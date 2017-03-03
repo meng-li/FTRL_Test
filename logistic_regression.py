@@ -38,4 +38,3 @@ class LogisticRegression(object):
         g = p - y
         for i in self._indices(x):
             w[i] += g * alpha
-

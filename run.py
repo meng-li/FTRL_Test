@@ -27,6 +27,9 @@ def data(filePath, hashSize, hashSalt):
             x.append(feature_hash)
         yield idx, date, id, x, y
 
+def train(epoch, trainPath):
+    pass
+
 def main():
     pass
 
